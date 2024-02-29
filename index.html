@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Retro Games Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Retro Games Portfolio</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Tic-Tac-Toe</h2>
+            <div id="ticTacToeBoard" class="board">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <button id="ticTacToeStartBtn">Start</button>
+            <button id="ticTacToeStopBtn">Stop</button>
+        </section>
+        
+
+        <section>
+            <h2>Pong</h2>
+            <canvas id="pongCanvas" width="400" height="300"></canvas>
+            <button id="pongStartBtn">Start</button>
+            <button id="pongStopBtn">Stop</button>
+        </section>
+
+        <section>
+            <h2>Snake</h2>
+            <canvas id="snakeCanvas" width="400" height="300"></canvas>
+            <button id="snakeStartBtn">Start</button>
+            <button id="snakeStopBtn">Stop</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

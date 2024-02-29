@@ -1,0 +1,106 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 14, 145);
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+h2 {
+    color: #ffcc00;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: rgb(4, 4, 63)
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tic-Tac-Toe styles */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #555;
+}
+
+/* Pong styles */
+canvas {
+    border: 1px solid #fff;
+}
+
+/* Snake styles */
+#snakeCanvas {
+    border: 1px solid #fff;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #ffcc00;
+    box-shadow: 0 0 5px #fff;
+}
+
+button.stop-btn {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button.stop-btn:hover {
+    background-color: #000;
+    color: #ffcc00;
+    box-shadow: 0 0 5px #fff;
+}
+
+#ticTacToeStartBtn{
+    margin-top: 30px;
+}
+
